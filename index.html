@@ -11,14 +11,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon"> 
 
 </head>
 
 <body>
 
-    <!--     Nav bar      -->
-
-
+    
+        <!-- --------------------Scroll Bar------------------ -->
+        
+        <section>
+            
+            
+            <div id="progressbar"></div>
+            <div id="scrollPath"></div>
+     
+        
+        <!--     Nav bar      -->
     <div class="navigation">
         <div class="menuToggle"></div>
         <ul>
@@ -171,9 +180,13 @@
         </div>
     </div>
 
+    <!-- The forum section Starts -->
+
+    <!-- The forum section ends  -->
     <!-- the contacts section start -->
-    <div class="social" >
-        <div class="facebook" id="social" style="border:1px solid black;">
+    <div class="social">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevb88QLecwUBnK1GRSv-9ykqB8_wrBuw2dKy_E0vxWH1YdIw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:80%;">Loading…</iframe>
+        <!-- <div class="facebook" id="social" style="border:1px solid black;">
             <div id="fb-root"></div>
             <script async defer crossorigin="anonymous"
                 src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="MkUwLOcN">
@@ -186,30 +199,49 @@
                         href="https://www.facebook.com/Coding-Juntion-108078555322071/">Coding Juntion</a></blockquote>
             </div>
         </div>
-        <div class="twitter" id="social" style="height:400px;width: 300px;background-color: rgb(231, 255, 255);padding: 0px;margin: 0px;border: 1px solid black;">
+        <div class="twitter" id="social"
+            style="height:400px;width: 300px;background-color: rgb(231, 255, 255);padding: 0px;margin: 0px;border: 1px solid black;">
             <a class="twitter-timeline" href="https://twitter.com/coding_junction?ref_src=twsrc%5Etfw">Tweets by
                 coding_junction</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
+        </div> -->
     </div>
     <!-- the contacts section end -->
 
 
 
-    <!--   Footer   -->
+      <!-- Footer   -->
     <div class="footer">
 
-        <div class="logo2">
-            <img src="/ioc-logo.png"></img>
+        <div class="footerleft">
+            
         </div>
-        <div class="cj">
-            <strong>Coding Junction</strong>
-            <p>A club by UIT</p>
+        <div class="footercenter">
+            <div class="logo2">
+                <img src="/ioc-logo.png"></img>
+            </div>
+            <div class="cj">
+                <strong>Coding Junction</strong>
+                <p>A club by UIT, BU, IT Department</p>
+            </div>
+            <div class="copyright">
+                <p>Copyright &#169; 2022</p>
+            </div>
         </div>
-        
-        
+        <div class="footerright">
+            <div class="add">
+                <strong>University Institute of Technology</strong>
+            </div>
+        </div>
+
     </div>
+
     
+
+    </section>
+
+   
+
     <!--      End of Footer     -->
 
 
@@ -236,6 +268,18 @@
 
         list.forEach((item) =>
             item.addEventListener('click', activeLink))
+
+
+        // --------------Scroll Bar------------------------
+
+        let progress = document.getElementById('progressbar');
+
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+
+        window.onscroll = function () {
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+            progress.style.height = progressHeight + "%";
+        }
 
     </script>
 

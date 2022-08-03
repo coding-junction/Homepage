@@ -11,183 +11,294 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon"> 
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
 
 </head>
 
 <body>
 
-    
-        <!-- --------------------Scroll Bar------------------ -->
-        
-        <section>
-            
-            
-            <div id="progressbar"></div>
-            <div id="scrollPath"></div>
-     
-        
+
+    <!-- --------------------Scroll Bar------------------ -->
+
+    <section>
+
+
+        <div id="progressbar"></div>
+        <div id="scrollPath"></div>
+
+
         <!--     Nav bar      -->
-    <div class="navigation">
-        <div class="menuToggle"></div>
-        <ul>
-            <li class="list active" style="--clr: #f44336;">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="home-outline"></ion-icon>
-                    </span>
-                </a>
-            </li>
+        <div class="navigation">
+            <div class="menuToggle"></div>
+            <ul>
+                <li class="list active" style="--clr: #f44336;">
+                    <a href="#sec1">
+                        <span class="icon">
+                            <ion-icon name="home-outline" md="Home"></ion-icon>
+                        </span>
+                    </a>
+                </li>
 
-            <li class="list" style="--clr: #2196f3;">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="calendar-outline"></ion-icon>
-                    </span>
-                </a>
-            </li>
+                <li class="list" style="--clr: #2196f3;">
+                    <a href="#sec2">
+                        <span class="icon">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </span>
+                    </a>
+                </li>
 
-            <li class="list" style="--clr: #ffa117;">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="bar-chart-outline"></ion-icon>
-                    </span>
-                </a>
-            </li>
+                <li class="list" style="--clr: #ffa117;">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="bar-chart-outline"></ion-icon>
+                        </span>
+                    </a>
+                </li>
 
-            <li class="list" style="--clr: #0f0;">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="at-outline"></ion-icon>
-                    </span>
+                <li class="list" style="--clr: #0f0;">
+                    <a href="#sec3">
+                        <span class="icon">
+                            <ion-icon name="at-outline"></ion-icon>
+                        </span>
 
-                </a>
-            </li>
+                    </a>
+                </li>
 
-            <li class="list" style="--clr: #610290;">
-                <a href="#">
-                    <span class="icon"><i>
-                            <ion-icon name="newspaper-outline"></ion-icon>
-                </a>
-            </li>
+                <li class="list" style="--clr: #610290;">
+                    <a href="#">
+                        <span class="icon"><i>
+                                <ion-icon name="newspaper-outline"></ion-icon>
+                    </a>
+                </li>
 
-            <li class="list" style="--clr: #e3ac6d;">
-                <a href="#">
-                    <span class="icon"><i>
-                            <ion-icon name="cafe-outline"></ion-icon></span>
-                </a>
-            </li>
-        </ul>
-    </div>
-
-    <!--    End of Navbar    -->
-
-
-    <!--    -->
-    <div class="banner">
-
-        <h1 class="neon" data-text="Welcome To">Welcome To</h1>
-        <div class="logo"><img src="ioc-logo.png" alt=""></div>
-
-        <div class="vector"><img src="vector.svg" alt=""></div>
-    </div>
-
-    <div class="eve" id='even'>
-        <div class="box">
-            <h2> Upcoming Events</h2>
+                <li class="list" style="--clr: #e3ac6d;">
+                    <a href="#">
+                        <span class="icon"><i>
+                                <ion-icon name="cafe-outline"></ion-icon></span>
+                    </a>
+                </li>
+            </ul>
         </div>
 
-        <div class="testimonials">
+        <!--    End of Navbar    -->
 
-            <div class="card">
-                <div class="layer"></div>
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique dignissimos vel natus?
-                        Vero accusamus odio, quas ratione ex perferendis.</p>
-                    <div class="details">
-                        <h2>Event 1 <br><span><a href="#">Read More!</a></span></h2>
-                        <div class="container">
-                            <a href="#"><span>Register</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="layer"></div>
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique dignissimos vel natus?
-                        Vero accusamus odio, quas ratione ex perferendis.</p>
-                    <div class="details">
-                        <h2>Event 2 <br><span><a href="#">Read More!</a></span></h2>
-                        <div class="container">
-                            <a href="#"><span>Register</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="layer"></div>
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique dignissimos vel natus?
-                        Vero accusamus odio, quas ratione ex perferendis.</p>
-                    <div class="details">
-                        <h2>Event 3 <br><span><a href="#">Read More!</a></span></h2>
-                        <div class="container">
-                            <a href="#"><span>Register</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="layer"></div>
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique dignissimos vel natus?
-                        Vero accusamus odio, quas ratione ex perferendis.</p>
-                    <div class="details">
-                        <h2>Event 4 <br><span><a href="#">Read More!</a></span></h2>
-                        <div class="container">
-                            <a href="#"><span>Register</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="layer"></div>
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique dignissimos vel natus?
-                        Vero accusamus odio, quas ratione ex perferendis.</p>
-                    <div class="details">
-                        <h2>Event 5 <br><span><a href="#">Read More!</a></span></h2>
-                        <div class="container">
-                            <a href="#"><span>Register</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="layer"></div>
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique dignissimos vel natus?
-                        Vero accusamus odio, quas ratione ex perferendis.</p>
-                    <div class="details">
-                        <h2>Event 6 <br><span><a href="#">Read More!</a></span></h2>
-                        <div class="container">
-                            <a href="#"><span>Register</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- The forum section Starts -->
+        <!--    -->
+        <section id="sec1">
 
-    <!-- The forum section ends  -->
-    <!-- the contacts section start -->
-    <div class="social">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevb88QLecwUBnK1GRSv-9ykqB8_wrBuw2dKy_E0vxWH1YdIw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:80%;">Loading…</iframe>
-        <!-- <div class="facebook" id="social" style="border:1px solid black;">
-            <div id="fb-root"></div>
+            <div class="banner">
+
+                <h1 class="neon" data-text="Welcome To">Welcome To</h1>
+                <div class="logo"><img src="ioc-logo.png" alt=""></div>
+
+                <div class="vector"><img src="vector.svg" alt=""></div>
+            </div>
+        </section>
+        <section id="sec2">
+
+
+            <div class="eve" id='even'>
+                <div class="box">
+                    <h2> Upcoming Events</h2>
+
+                </div>
+
+                <div class="testimonials">
+
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique dignissimos
+                                vel natus?
+                                Vero accusamus odio, quas ratione ex perferendis.</p>
+                            <div class="details">
+                                <h2>Event 1 <br><span><a href="#">Read More!</a></span></h2>
+                                <div class="container">
+                                    <a href="#"><span>Register</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique dignissimos
+                                vel natus?
+                                Vero accusamus odio, quas ratione ex perferendis.</p>
+                            <div class="details">
+                                <h2>Event 2 <br><span><a href="#">Read More!</a></span></h2>
+                                <div class="container">
+                                    <a href="#"><span>Register</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique dignissimos
+                                vel natus?
+                                Vero accusamus odio, quas ratione ex perferendis.</p>
+                            <div class="details">
+                                <h2>Event 3 <br><span><a href="#">Read More!</a></span></h2>
+                                <div class="container">
+                                    <a href="#"><span>Register</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique dignissimos
+                                vel natus?
+                                Vero accusamus odio, quas ratione ex perferendis.</p>
+                            <div class="details">
+                                <h2>Event 4 <br><span><a href="#">Read More!</a></span></h2>
+                                <div class="container">
+                                    <a href="#"><span>Register</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique dignissimos
+                                vel natus?
+                                Vero accusamus odio, quas ratione ex perferendis.</p>
+                            <div class="details">
+                                <h2>Event 5 <br><span><a href="#">Read More!</a></span></h2>
+                                <div class="container">
+                                    <a href="#"><span>Register</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique dignissimos
+                                vel natus?
+                                Vero accusamus odio, quas ratione ex perferendis.</p>
+                            <div class="details">
+                                <h2>Event 6 <br><span><a href="#">Read More!</a></span></h2>
+                                <div class="container">
+                                    <a href="#"><span>Register</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The forum section Starts -->
+        <!-- <div class="forum">
+        <iframe src="http://uitit2021.ml/"></iframe>
+    </div> -->
+        <!-- The forum section ends  -->
+        <!-- the contacts section start -->
+        <section id="sec3">
+
+            <div class="social">
+                <div class="soclr">
+                    <div class="facebook" id="social" style="border:1px solid black; width: 300px; height:400px;">
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous"
+                            src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="MkUwLOcN">
+                            </script>
+                        <div class="fb-page" data-href="https://www.facebook.com/Coding-Juntion-108078555322071/"
+                            data-tabs="timeline" data-width="300" data-height="400" data-small-header="true"
+                            data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/Coding-Juntion-108078555322071/"
+                                class="fb-xfbml-parse-ignore"><a
+                                    href="https://www.facebook.com/Coding-Juntion-108078555322071/">Coding Juntion</a>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="soclm">
+                    <div class="bbx">
+                        <div class="hbx">
+                            🤝 Join with us on .....  👇
+                        </div>
+                        <a href="" class="Youtube" id="sm">
+                            <div class="btng">
+                                <div class="btnb">
+                                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;"
+                                        width="23" height="23" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <g clip-path="url(#svgIDa)">
+                                                <path fill="red"
+                                                    d="M23.5 6.507a2.786 2.786 0 0 0-.766-1.27a3.05 3.05 0 0 0-1.338-.742C19.518 4 11.994 4 11.994 4a76.624 76.624 0 0 0-9.39.47a3.16 3.16 0 0 0-1.338.76c-.37.356-.638.795-.778 1.276A29.09 29.09 0 0 0 0 12c-.012 1.841.151 3.68.488 5.494c.137.479.404.916.775 1.269c.371.353.833.608 1.341.743c1.903.494 9.39.494 9.39.494a76.8 76.8 0 0 0 9.402-.47a3.05 3.05 0 0 0 1.338-.742a2.78 2.78 0 0 0 .765-1.27A28.38 28.38 0 0 0 24 12.023a26.579 26.579 0 0 0-.5-5.517ZM9.602 15.424V8.577l6.26 3.424l-6.26 3.423Z" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="svgIDa">
+                                                    <path fill="#fff" d="M0 0h24v24H0z" />
+                                                </clipPath>
+                                            </defs>
+                                        </g>
+                                    </svg> Youtube
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="instagram" id="sm">
+                            <div class="btng">
+                                <div class="btnb">
+                                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;"
+                                        width="23" height="23" preserveAspectRatio="xMidYMid meet" viewBox="0 0 15 15">
+                                        <path fill="purple" fill-rule="evenodd"
+                                            d="M12.91 12.909c.326-.327.582-.72.749-1.151c.16-.414.27-.886.302-1.578c.032-.693.04-.915.04-2.68c0-1.765-.008-1.987-.04-2.68c-.032-.692-.142-1.164-.302-1.578a3.185 3.185 0 0 0-.75-1.151a3.187 3.187 0 0 0-1.151-.75c-.414-.16-.886-.27-1.578-.302C9.487 1.007 9.265 1 7.5 1c-1.765 0-1.987.007-2.68.04c-.692.03-1.164.14-1.578.301a3.2 3.2 0 0 0-1.151.75a3.2 3.2 0 0 0-.75 1.151c-.16.414-.27.886-.302 1.578C1.007 5.513 1 5.735 1 7.5c0 1.765.007 1.987.04 2.68c.03.692.14 1.164.301 1.578c.164.434.42.826.75 1.151c.325.33.718.586 1.151.75c.414.16.886.27 1.578.302c.693.031.915.039 2.68.039c1.765 0 1.987-.008 2.68-.04c.692-.03 1.164-.14 1.578-.301a3.323 3.323 0 0 0 1.151-.75ZM2 6.735v1.53c-.002.821-.002 1.034.02 1.5c.026.586.058 1.016.156 1.34c.094.312.199.63.543 1.012c.344.383.675.556 1.097.684c.423.127.954.154 1.415.175c.522.024.73.024 1.826.024H8.24c.842.001 1.054.002 1.526-.02c.585-.027 1.015-.059 1.34-.156c.311-.094.629-.2 1.011-.543c.383-.344.556-.676.684-1.098c.127-.422.155-.953.176-1.414C13 9.247 13 9.04 13 7.947v-.89c0-1.096 0-1.303-.023-1.826c-.021-.461-.049-.992-.176-1.414c-.127-.423-.3-.754-.684-1.098c-.383-.344-.7-.449-1.011-.543c-.325-.097-.755-.13-1.34-.156A27.29 27.29 0 0 0 8.24 2H7.057c-1.096 0-1.304 0-1.826.023c-.461.021-.992.049-1.415.176c-.422.128-.753.301-1.097.684c-.344.383-.45.7-.543 1.012c-.098.324-.13.754-.156 1.34c-.022.466-.022.679-.02 1.5ZM7.5 5.25a2.25 2.25 0 1 0 0 4.5a2.25 2.25 0 0 0 0-4.5ZM4.25 7.5a3.25 3.25 0 1 1 6.5 0a3.25 3.25 0 0 1-6.5 0Zm6.72-2.72a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5Z"
+                                            clip-rule="evenodd" />
+                                    </svg> Instagram
+                                </div>
+                            </div>
+                        </a>
+                        <!-- <a href="" class="facebook" id="sm">
+                            <div class="btng">
+                                <div class="btnb">
+                                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;" width="23" height="23" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256"><path fill="#1877F2" d="M256 128C256 57.308 198.692 0 128 0C57.308 0 0 57.307 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.347-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.958 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445"/><path fill="#FFF" d="m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A128.959 128.959 0 0 0 128 256a128.9 128.9 0 0 0 20-1.555V165h29.825"/></svg>
+                                    Facebook
+                                </div>
+                            </div>
+                        </a> -->
+                        <a href="" class="linkedin" id="sm">
+                            <div class="btng">
+                                <div class="btnb">
+                                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;"
+                                        width="23" height="23" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+                                        <path fill="#0A66C2"
+                                            d="M218.123 218.127h-37.931v-59.403c0-14.165-.253-32.4-19.728-32.4c-19.756 0-22.779 15.434-22.779 31.369v60.43h-37.93V95.967h36.413v16.694h.51a39.907 39.907 0 0 1 35.928-19.733c38.445 0 45.533 25.288 45.533 58.186l-.016 67.013ZM56.955 79.27c-12.157.002-22.014-9.852-22.016-22.009c-.002-12.157 9.851-22.014 22.008-22.016c12.157-.003 22.014 9.851 22.016 22.008A22.013 22.013 0 0 1 56.955 79.27m18.966 138.858H37.95V95.967h37.97v122.16ZM237.033.018H18.89C8.58-.098.125 8.161-.001 18.471v219.053c.122 10.315 8.576 18.582 18.89 18.474h218.144c10.336.128 18.823-8.139 18.966-18.474V18.454c-.147-10.33-8.635-18.588-18.966-18.453" />
+                                    </svg>
+                                    Linkedin
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="twitter" id="sm">
+                            <div class="btng">
+                                <div class="btnb">
+                                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;"
+                                        width="23" height="23" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48">
+                                        <path fill="#2F88FF" stroke="#000" stroke-linejoin="round" stroke-width="4"
+                                            d="M5 35.7622C6.92886 36.8286 20.8914 44.8773 30.8199 38.674C40.7483 32.4707 40.2006 21.7833 40.2006 16.886C41.1 15.0018 43 14.0439 43 8.9438C41.1337 10.6678 39.2787 11.2544 37.435 10.7036C35.6287 7.94957 33.1435 6.73147 29.9794 7.04934C25.2333 7.52614 23.4969 12.1825 24.0079 18.2067C16.6899 21.9074 10.9515 15.524 7.99418 10.7036C7.00607 14.4999 6.0533 19.0576 7.99418 24.0995C9.2881 27.4607 12.3985 30.3024 17.3254 32.6246C12.3323 35.3308 8.22382 36.3766 5 35.7622Z" />
+                                    </svg>
+                                    Twitter
+                                </div>
+                            </div>
+                        </a>
+                    </div>                    
+                </div>
+                <div class="socll">
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSevb88QLecwUBnK1GRSv-9ykqB8_wrBuw2dKy_E0vxWH1YdIw/viewform?embedded=true"
+                        frameborder="0" marginheight="0" marginwidth="0"
+                        style="width:500px; height: 400px;">Loading…</iframe>
+                </div>
+            </div>
+            <!-- <div class="facebook" id="social" style="border:1px solid black;">
+                <div id="fb-root"></div>
             <script async defer crossorigin="anonymous"
                 src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="MkUwLOcN">
                 </script>
@@ -197,7 +308,7 @@
                 <blockquote cite="https://www.facebook.com/Coding-Juntion-108078555322071/"
                     class="fb-xfbml-parse-ignore"><a
                         href="https://www.facebook.com/Coding-Juntion-108078555322071/">Coding Juntion</a></blockquote>
-            </div>
+                    </div>
         </div>
         <div class="twitter" id="social"
             style="height:400px;width: 300px;background-color: rgb(231, 255, 255);padding: 0px;margin: 0px;border: 1px solid black;">
@@ -205,14 +316,14 @@
                 coding_junction</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div> -->
-    </div>
-    <!-- the contacts section end -->
+        </section>
+        <!-- the contacts section end -->
 
 
 
-      <!-- Footer   -->
-    <div class="footer">
-
+        <!-- Footer   -->
+        <!-- <div class="footer">
+        
         <div class="footerleft">
             
         </div>
@@ -232,17 +343,87 @@
             <div class="add">
                 <strong>University Institute of Technology</strong>
             </div>
-        </div>
+         </div> -->
+        <!-- </div> -->
 
-    </div>
 
-    
+        <footer>
+            <div class="contain">
+                <div class="sec aboutus">
+                    <h2>About Us</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Quia nostrum similique, officia
+                        mollitia velit accusantium facilis <br> est beatae eos molestias, rerum, consectetur aliquid
+                        odio
+                        expedita fugiat non pariatur. Hic dolor odit aliquam eligendi optio!
+                    </p>
 
+                    <!-- <ul class="sci">
+                    
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                </ul> -->
+                </div>
+
+                <div class="footercenter">
+                    <div class="logo2">
+                        <img src="/ioc-logo.png"></img>
+                    </div>
+                    <div class="cj">
+                        <strong>Coding Junction</strong>
+                        <p>A club by UIT, BU, IT Department</p>
+                    </div>
+                    <div class="copyright">
+                        <p>Copyright &#169; 2022</p>
+                    </div>
+                </div>
+                <!-- <div class="footerright">
+                    <div class="add">
+                        <strong>University Institute of Technology</strong>
+                    </div>
+                 </div> -->
+
+                <div class="contact info">
+                    <h2>Contact Info</h2>
+                    <div class="infoBox">
+
+                        <div>
+                            <span>
+                                <ion-icon name="location-outline"></ion-icon>
+                            </span>
+                            <p>University Institute Of Technology,<br>Golapbag North, Grand Trunk Rd,<br> Burdwan, <br>
+                                West Bengal 713104</p>
+                        </div>
+                        <div>
+                            <span>
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </span>
+                            <a href="mailto:uit.coding.junction@gmail.com">uit.coding.junction@gmail.com</a>
+                        </div>
+                        <div>
+                            <span>
+                                <ion-icon name="call-outline"></ion-icon>
+                            </span>
+                            <a href="tel:123456789">123 456 789</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact map">
+            
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.6100954372796!2d87.84456211398697!3d23.25727141335382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8361a58dcc565%3A0x37a42f6b23df16cd!2sUniversity%20Institute%20Of%20Technology%2C%20BU!5e0!3m2!1sen!2sin!4v1659304133648!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+        </footer>
     </section>
 
-   
-
-    <!--      End of Footer     -->
+  <!--      End of Footer     -->
 
 
 

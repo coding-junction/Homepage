@@ -1,3 +1,8 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +13,9 @@
 
 section
 {
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 60px;
 }
 body {
     background-image: url('background.png');
@@ -47,14 +54,14 @@ body {
     width: 100%;
 }
 
-.navigation ul li {
+.navigation ul li 
+{
     list-style: none;
     position: relative;
     width: 100%;
     height: 60px;
     padding: 0px 28px;
     transition: 0.5s;
-
 }
 
 .navigation ul li.active {
@@ -98,7 +105,8 @@ body {
 
 }
 
-.navigation ul li a .icon::before {
+.navigation ul li a .icon::before 
+{
     content: '';
     position: absolute;
     top: 10px;
@@ -125,6 +133,7 @@ body {
     /* min-height: 100vh; */
     margin-left: 100px;
     margin-top: 20px;
+    margin-bottom: 40px;
     margin-right: 20px;
     border-radius: 15px;
     backdrop-filter: blur(20px);
@@ -531,12 +540,13 @@ h1 {
     margin-bottom: 20px;
     height: 500px;
     display: flex;
+    flex-direction: row;
     padding: 30px;
     gap: 30px;
     justify-content: center;
 
 }
-
+/* 
 
 .footer{
     backdrop-filter: blur(20px);
@@ -544,14 +554,23 @@ h1 {
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.5);
     /* background-color: rgba(255, 255, 255, 0.1); */
-    margin-left: 100px;
+    /* margin-left: 100px;
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     height: 205px;
     display: flex;
-    flex-direction: row;
-    justify-content: left;
+    /* flex-direction: row; */
+    /* justify-content: left; */
+/* 
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    /* background: rgb(52, 48, 48); */
+    
+    /* justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer .footerleft,.footercenter,.footerright{
@@ -596,11 +615,307 @@ h1 {
     margin-top: 25px;
     color: white;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */ */ */ */
     /* font-weight: */
-}
+/* } */
 
 /* .footer .copyright{
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-} */
+/* } */
+
+footer
+{
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    /* width: 350px; */
+    
+    height: 400px;
+    padding: 50px 100px;
+    background: rgb(52, 48, 48);
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+footer .contain
+{
+    /* display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between */
+    /* flex-direction: row;
+    margin-left: 10%; */ 
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 12%;
+    /* margin-right: 20px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 83%;
+    height: 400px;
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.contain .aboutus,.footercenter,.contact{
+    width: 400px;
+}
+
+footer .contain .sec
+{
+    margin-right: 30px;
+
+}
+
+footer .contain .sec.aboutus
+{
+    width: 40%;
+    
+}
+footer .contain .sec.aboutus h2
+{
+    position: relative;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .contain h2::before 
+{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+footer p
+{
+    color: #999;
+}
+
+
+
+.info h2
+{
+    position: relative;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.info .infoBox div
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info .infoBox div span
+{
+    min-width: 40px;
+    height: 40px;
+    color: white;
+    background: #18b7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.info .infoBox div p
+{
+    color: white;
+    font-size: 1.1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.info .infoBox div a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    
+}
+
+.map
+{
+    /* padding: 20px;
+    margin-left: 50%; */
+    /* position: absolute; */
+    width: 150px;
+    height: 500px;
+    /* left: 30px; */
+}
+
+.map iframe
+{
+    
+    width: 40%;
+    height: 10%;
+}
+
+
+.logo2{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+.logo2 img{
+    margin-top: 0px;
+    height: 50px;
+    
+}
+
+.footercenter .cj{
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 10;
+    font-size: xx-large;
+}
+
+.footercenter .copyright{
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 10;
+    font-size: medium;
+}
+
+.footercenter .cj strong{
+    font-size: large;
+}
+
+.footercenter p{
+    font-size: large;
+    font-style: italic;
+}
+
+.footerright .add{
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+ } 
+
+ .footer .copyright{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ 
+ .aboutus h2,p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .bbx {
+    display: flex;
+    flex-direction: column;
+}
+
+.hbx
+{
+    font: 25px sans-serif;
+
+}
+
+.mb
+{
+    margin: 5px;
+    width: 135px;
+    height: 20px;
+    font:23px sans-serif;
+    color: #fff;
+    border-radius: 300px;
+    border: 5px solid rgb(8, 156, 0) ;
+    background-color: aquamarine;
+    padding: 5px;
+    text-align: center;
+    text-decoration:none;
+}
+
+#sm {
+    margin: 5px;
+    text-align: left;
+    text-indent: 20px;
+    font: 23px sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.btnb {
+    
+    padding: 10px;
+    width: 180px;
+    height: 40px; 
+   
+    /* width: 150px;
+    height: 35px;
+     */
+    border-radius: 300px;
+    background: rgb(3, 0, 5)
+        linear-gradient(180deg, rgba(3, 0, 90, 0.3), rgba(4, 0, 126, 0.3), rgba(8, 0, 249, 0.3), rgba(140, 0, 255, 0.3), rgba(238, 0, 255, 0.3), rgba(181, 0, 145, 0.3));
+}
+
+.btng {
+    padding: 5px;
+    width: 190px;
+    height: 50px;
+    background: rgb(103, 103, 103) conic-gradient(from 0deg, rgba(223, 0, 0, 0.4) 2.7%, rgba(214, 91, 0, 0.4) 9.1%, rgba(233, 245, 0, 0.4) 25.5%, rgba(23, 255, 17, 0.4) 45.8%, rgba(29, 255, 255, 0.4) 61.5%, rgba(5, 17, 255, 0.4) 76.4%, rgba(202, 0, 253, 0.4) 80.4%, rgba(223, 0, 0, 0.4) 100%);
+    border-radius: 300px;
+}
+
+.btng:hover {
+    animation: ani 3s infinite linear;
+}
+
+@keyframes ani {
+    0% {
+        background: conic-gradient(from 0deg, rgba(223, 0, 0, 1) 2.7%, rgba(214, 91, 0, 1) 9.1%, rgba(233, 245, 0, 1) 25.5%, rgba(23, 255, 17, 1) 43.8%, rgba(29, 255, 255, 1) 61.5%, rgba(5, 17, 255, 1) 76.4%, rgba(202, 0, 253, 1) 90.4%, rgba(223, 0, 0, 1) 100%);
+    }
+
+    12.5% {
+        background: conic-gradient(from 45deg, rgba(223, 0, 0, 1) 2.7%, rgba(214, 91, 0, 1) 9.1%, rgba(233, 245, 0, 1) 25.5%, rgba(23, 255, 17, 1) 43.8%, rgba(29, 255, 255, 1) 61.5%, rgba(5, 17, 255, 1) 76.4%, rgba(202, 0, 253, 1) 90.4%, rgba(223, 0, 0, 1) 100%);
+    }
+
+    25% {
+        background: conic-gradient(from 90deg, rgba(223, 0, 0, 1) 2.7%, rgba(214, 91, 0, 1) 9.1%, rgba(233, 245, 0, 1) 25.5%, rgba(23, 255, 17, 1) 43.8%, rgba(29, 255, 255, 1) 61.5%, rgba(5, 17, 255, 1) 76.4%, rgba(202, 0, 253, 1) 90.4%, rgba(223, 0, 0, 1) 100%);
+    }
+
+    38.5% {
+        background: conic-gradient(from 135deg, rgba(223, 0, 0, 1) 2.7%, rgba(214, 91, 0, 1) 9.1%, rgba(233, 245, 0, 1) 25.5%, rgba(23, 255, 17, 1) 43.8%, rgba(29, 255, 255, 1) 61.5%, rgba(5, 17, 255, 1) 76.4%, rgba(202, 0, 253, 1) 90.4%, rgba(223, 0, 0, 1) 100%);
+    }
+
+    50% {
+        background: conic-gradient(from 180deg, rgba(223, 0, 0, 1) 2.7%, rgba(214, 91, 0, 1) 9.1%, rgba(233, 245, 0, 1) 25.5%, rgba(23, 255, 17, 1) 43.8%, rgba(29, 255, 255, 1) 61.5%, rgba(5, 17, 255, 1) 76.4%, rgba(202, 0, 253, 1) 90.4%, rgba(223, 0, 0, 1) 100%);
+    }
+
+    62.5% {
+        background: conic-gradient(from 235deg, rgba(223, 0, 0, 1) 2.7%, rgba(214, 91, 0, 1) 9.1%, rgba(233, 245, 0, 1) 25.5%, rgba(23, 255, 17, 1) 43.8%, rgba(29, 255, 255, 1) 61.5%, rgba(5, 17, 255, 1) 76.4%, rgba(202, 0, 253, 1) 90.4%, rgba(223, 0, 0, 1) 100%);
+    }
+
+    75% {
+        background: conic-gradient(from 270deg, rgba(223, 0, 0, 1) 2.7%, rgba(214, 91, 0, 1) 9.1%, rgba(233, 245, 0, 1) 25.5%, rgba(23, 255, 17, 1) 43.8%, rgba(29, 255, 255, 1) 61.5%, rgba(5, 17, 255, 1) 76.4%, rgba(202, 0, 253, 1) 90.4%, rgba(223, 0, 0, 1) 100%);
+    }
+
+    88.5% {
+        background: conic-gradient(from 315deg, rgba(223, 0, 0, 1) 2.7%, rgba(214, 91, 0, 1) 9.1%, rgba(233, 245, 0, 1) 25.5%, rgba(23, 255, 17, 1) 43.8%, rgba(29, 255, 255, 1) 61.5%, rgba(5, 17, 255, 1) 76.4%, rgba(202, 0, 253, 1) 90.4%, rgba(223, 0, 0, 1) 100%);
+    }
+
+    100% {
+        background: conic-gradient(from 360deg, rgba(223, 0, 0, 1) 2.7%, rgba(214, 91, 0, 1) 9.1%, rgba(233, 245, 0, 1) 25.5%, rgba(23, 255, 17, 1) 43.8%, rgba(29, 255, 255, 1) 61.5%, rgba(5, 17, 255, 1) 76.4%, rgba(202, 0, 253, 1) 90.4%, rgba(223, 0, 0, 1) 100%);
+    }
+}

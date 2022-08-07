@@ -543,7 +543,9 @@ h1 {
 
 
 .hbx {
-    font: 25px sans-serif;
+    font: 40px sans-serif ;
+    color: #fff;
+    background: radial-gradient(circle, rgba(0,0,0,0.6979166666666667) 11%, rgba(0,0,0,0.014443277310924318) 89%);
 
 }
 
@@ -572,12 +574,11 @@ h1 {
 
 .btnb {
 
-    padding: 10px;
+    padding: 7px;
     width: 180px;
     height: 40px;
 
-    width: 150px;
-    height: 35px;
+
 
     border-radius: 300px;
     background: rgb(3, 0, 5) linear-gradient(180deg, rgba(3, 0, 90, 0.3), rgba(4, 0, 126, 0.3), rgba(8, 0, 249, 0.3), rgba(140, 0, 255, 0.3), rgba(238, 0, 255, 0.3), rgba(181, 0, 145, 0.3));
@@ -873,9 +874,9 @@ p {
     left: 92vw;
     width: 80px;
     height: 80px;
-    background: rgb(49, 28, 28);
-    border: 5px inset;
-    border-color: red blue green yellow;
+    background: rgb(249, 192, 6);
+    /* border: 5px inset; */
+    /* border-color: red blue green yellow; */
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 5px 5px rgba(255, 255, 255, 0.099);
@@ -923,9 +924,11 @@ p {
 .action ul li {
     list-style: none;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     padding: 10px 0;
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     transition: 0.3s;
 
 }
@@ -1008,4 +1011,17 @@ p {
     font-size: 1em;
     color: #fff;
     font-weight: 300;
+}
+.socll{
+    display: block;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+.soclm{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+.soclr{
+    display: block;
 }

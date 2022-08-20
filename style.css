@@ -366,8 +366,8 @@ h1 {
 
 .box {
     position: relative;
+    margin: auto;
     margin-top: 5%;
-    margin-left: 35%;
     width: 500px;
     height: 300px;
     display: flex;

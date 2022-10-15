@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('downloadbg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%; 
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.logo{
+    height: 25%;
+    width: 90%;
+    margin: 5%;
+    position: fixed;
+    
+    background-image: url('ioc-logo.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 80%; 
+    background-position-x: center;
+    background-position-y: 10%;
+
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;;
+
+}

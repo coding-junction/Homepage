@@ -1337,6 +1337,9 @@ p {
     .hbx{
         font: 31px sans-serif;
     }
+    footer .foot{
+        height: 645px;
+    }
 }
 @media (max-width: 425px) {
     .socll iframe{
@@ -1356,7 +1359,7 @@ p {
     }
     footer .foot{
         padding: 0%;
-        height: 961px;
+        height: 994px;
     }
     .footic{
         flex-wrap: wrap;
@@ -1368,7 +1371,7 @@ p {
     .map{
         position: absolute;
         width: 290px;
-        top: 600px;
+        top: 594px;
         left: 33px;
     }
     .footercenter{
@@ -1416,7 +1419,7 @@ p {
         margin-top: 30px;
     }
     .banner{
-        height: 282px;
+        height: 228px;
     }
     .navigation ul{
         justify-content: space-around;
@@ -1431,7 +1434,7 @@ p {
     }
     .map{
         width: 242px;
-        top: 618px;
+        top: 657px;
         left: 33px;
     }
     .box {
@@ -1442,7 +1445,7 @@ p {
         width: 157px;
     }
     footer .foot {
-        height: 996px;
+        height: 1065px;
     }
     .testimonials {
         margin: -6px;
@@ -1450,5 +1453,13 @@ p {
     .action{
         width: 50px;
         height: 50px;
+    }
+    .footercenter {
+        margin-top: 121px;
+    }
+}
+@media only screen and (max-width: 360px){
+    body{
+        background-image: url("background.png");
     }
 }

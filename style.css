@@ -1425,3 +1425,30 @@ p {
         width: 190px;
     }
 }
+@media (max-width: 360px) {
+    .contact.info {
+        width: 280px;
+    }
+    .map{
+        width: 242px;
+        top: 618px;
+        left: 33px;
+    }
+    .box {
+        width: 281px;
+        height: 194px;
+    }
+    .box::before {
+        width: 157px;
+    }
+    footer .foot {
+        height: 996px;
+    }
+    .testimonials {
+        margin: -6px;
+    }
+    .action{
+        width: 50px;
+        height: 50px;
+    }
+}

@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('downloadbg.png');
+    background-image: url('images/downloadbg.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -21,7 +21,7 @@ body {
     margin: 4%;
     /* position: fixed; */
     
-    background-image: url('ioc-logo.png');
+    background-image: url('images/ioc-logo.png');
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-size: 17rem; 
@@ -203,6 +203,6 @@ footer ul li{
 
 @media only screen and (min-width: 767px){
     body{
-        background-image: url("background.png");
+        background-image: url("images/background.png");
     }
 }

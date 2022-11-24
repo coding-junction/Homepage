@@ -38,34 +38,34 @@ body {
     /* background-color: blueviolet; */
 }
 
-.logo p{
-    position: relative;
-    text-align: center;
-    top: 8.5rem;
-    /* background-color: red; */
-    font-size: xx-large;
-}
-
 .leaderboard{
-    display: flex;
+    display: block;
     align-items: center;
-    justify-content: center;
 
     margin: auto;
     height: auto;
     width: 100%;
     padding: 2% 0%;
-
+    
     backdrop-filter: blur(20px);
     background-color: rgba(0, 0, 0, 0.6);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.5);
     /* border-radius: 30px; */
+
+    
 }
 
-.leaderboard h1{
+.leaderboard .p{
+    text-align: center;
+    /* background-color: red; */
+    font-size: 1rem;
+}
+
+.leaderboard .h1{
     text-align: center;
     /* background-color: aqua; */
+    font-size: 0.8rem;
 }
 
 .winnersBanner{
@@ -81,9 +81,21 @@ body {
     border-radius: 30px;
 }
 
+.winnersBanner .appre{
+    text-align: center;
+    padding: 1rem;
+}
+
 .winnersBanner h3{
     text-align: center;
     font-size: xx-large;
+    font-family: 'Satisfy', cursive;
+    /* letter-spacing: 0.15rem; */
+    font-weight: 100;
+    text-shadow: 0 0 7px #fff,
+                 0 0 42px #0fa,
+                 0 0 102px #0fa,
+                 0 0 151px #0fa;
 }
 
 .winnersBanner .kingnQueen{

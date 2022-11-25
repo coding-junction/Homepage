@@ -78,7 +78,7 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .winnersBanner .appre{
@@ -144,5 +144,34 @@ footer ul li{
 @media only screen and (min-width: 767px){
     body{
         background-image: url("images/background.png");
+    }
+}
+
+@media (min-width: 1440px)
+{
+    .logo
+    {
+        height: 19rem;
+        background-size: 35rem;
+    }
+    .leaderboard{
+        margin: 4%;
+        width: 92%;
+        border-radius: 15px;
+    }
+    .leaderboard .p{
+        font-size: 2rem;
+    }
+    .leaderboard .h1{
+        font-size: 1.8rem;
+    }
+    .winnersBanner h3{
+        font-size: 3.5rem;
+    }
+    marquee p{
+        font-size: 1.8rem;
+    }
+    .appre p{
+        font-size: 2rem;
     }
 }

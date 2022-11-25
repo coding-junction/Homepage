@@ -10,6 +10,7 @@
     <title>Leader Boards</title>
 </head>
 <body>
+    <canvas id="my-canvas"></canvas>
     <div class="logo">
     </div> 
     
@@ -70,5 +71,12 @@
     </div>
 
 </footer>
+
+<script src="_con.min.js"></script>
+    <script>
+    var confettiSettings = { target: 'my-canvas' };
+    var confetti = new ConfettiGenerator(confettiSettings);
+confetti.render();
+</script>
 
 </html>

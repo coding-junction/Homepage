@@ -141,6 +141,16 @@ footer ul li{
     padding-bottom: 5%;
 }
 
+#my-canvas
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+}
+
 @media only screen and (min-width: 767px){
     body{
         background-image: url("images/background.png");

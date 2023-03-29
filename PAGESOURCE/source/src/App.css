@@ -1,0 +1,34 @@
+.App {
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+@media ((min-width: 427px) and (max-width: 768px)) {
+    App {
+        background-image: url("images/downloadbg.png");
+    }
+}
+
+@media (max-width: 425px) {
+    App {
+        background-image: url("images/downloadbg.png");
+    }
+}
+
+@media (max-width: 360px) {
+    App {
+        background-image: url("images/downloadbg.png");
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    App {
+        background-image: url("images/downloadbg.png");
+    }
+}

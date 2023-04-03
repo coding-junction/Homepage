@@ -1,0 +1,39 @@
+.banner {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 550px;
+    /* max-width: 100%; */
+    width: auto;
+    /* min-height: 100vh; */
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border-radius: 15px;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 1568px) {
+    .banner{
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+}
+@media (max-width: 1024px) {
+    .banner{
+        margin-bottom: 0px;
+        height: 470px;
+    }
+}
+@media ((min-width: 427px) and (max-width: 768px)) {
+    .banner{
+        height: 360px;
+    }
+}
+@media (max-width: 425px) {
+    .banner{
+        height: 228px;
+    }
+    }

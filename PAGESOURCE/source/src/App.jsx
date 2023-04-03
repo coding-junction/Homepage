@@ -13,6 +13,7 @@ import './App.css'
 // import "@ionic/react/css/display.css";
 import Progress from './assets/Progress'
 import Navigations from './assets/Navigation';
+import Banner from './assets/Banner';
 // setupIonicReact({
 //   mode: "md",
 // });
@@ -23,6 +24,7 @@ function App()
       <div className="App">
         <Progress />
         <Navigations />
+        <Banner />
       </div>
     );
 }

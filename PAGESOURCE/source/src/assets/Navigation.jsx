@@ -4,14 +4,14 @@ import { IonIcon } from '@ionic/react';
 import {
   home,
   calendarOutline,
-  barChartOutline,
+  bookOutline,
   atOutline,
   newspaperOutline
 } from "ionicons/icons";
 function Navbtns(props) {
   return (
-    <li className="list active" style={props.bcolr}>
-      <a href="#sec1">
+    <li className="list active" style={props.style}>
+      <a href={props.consec}>
         <span className="icon">
           <IonIcon icon={props.icon}></IonIcon>
         </span>
@@ -24,11 +24,28 @@ function Navigations() {
     <div className="navigation">
       <div className="menuToggle"></div>
       <ul>
-        <Navbtns icon={home} bcplr={"--clr: #f44336;"} />
-        <Navbtns icon={calendarOutline} bcplr={"--clr: #2196f3;"} />
-        <Navbtns icon={barChartOutline} bcplr={"--clr: #ffa117;"} />
-        <Navbtns icon={atOutline} bcplr={"--clr: #0f0;"} />
-        <Navbtns icon={newspaperOutline} bcplr={"--clr: #610290;"} />
+        <Navbtns
+          icon={home}
+          style={{ "--clr": "#f44336" }}
+          className="home"
+          consec="#sec1"
+        />
+        <Navbtns
+          icon={calendarOutline}
+          style={{ "--clr": "#2196f3" }}
+          consec="#sec2"
+        />
+        <Navbtns
+          icon={bookOutline}
+          style={{ "--clr": "#ffa117" }}
+          consec="#sec3"
+        />
+        <Navbtns icon={atOutline} style={{ "--clr": "#0f0" }} consec="#sec4"/>
+        <Navbtns
+          icon={newspaperOutline}
+          style={{ "--clr": "#610290" }}
+          consec="#sec5"
+        />
       </ul>
     </div>
   );

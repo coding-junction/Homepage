@@ -22,9 +22,11 @@ function App()
 {
     return (
       <div className="App">
-        <Progress />
-        <Navigations />
-        <Banner />
+        <section className="mainsec">
+          <Progress />
+          <Navigations />
+          <Banner />
+        </section>
       </div>
     );
 }

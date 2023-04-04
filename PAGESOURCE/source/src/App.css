@@ -8,7 +8,12 @@
     height: 100vh;
     min-height: 100vh;
 }
-
+.mainsec
+{
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+}
 @media ((min-width: 427px) and (max-width: 768px)) {
     App {
         background-image: url("images/downloadbg.png");
